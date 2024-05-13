@@ -124,7 +124,7 @@ label_ip.grid(row=1, column=1, padx=10, pady=5)
 entry_url = Entry(root, width=50)
 entry_url.grid(row=2, column=0, columnspan=3, padx=10, pady=5)
 label_url = Label(root, text="URL (sans http/https):")
-label_url.grid(row=2, column=1, padx=10, pady=5)
+label_url.grid(row=2, column=3, padx=10, pady=5)
 
 # Création du bouton d'exécution des commandes
 button_execute = Button(root, text="Exécuter", command=execute_commands)
