@@ -3,25 +3,25 @@
 
 # nslookup 
 nslookup URL
-# nslookup
+# nslookup A
 nslookup -type=A URL
-# nslookup
+# nslookup MX
 nslookup -type=MX URL
-# nslookup
+# nslookup TXT
 nslookup -type=TXT URL
 
 # Dig
 dig URL
-# Dig
+# Dig MX
 dig URL MX
-# Dig
+# Dig A
 dig URL A
-# Dig
+# Dig TXT
 dig URL TXT
 
 # Host command
 host URL 
-# Host command
+# Host command A
 host -a URL
 
 # Whois
@@ -37,9 +37,9 @@ whatweb URL
 ########################## PHASE DE RECONNAISSANCE #######################################################
 ############# ACTIVE #####################################################################################
 
-# Ping
+# Ping IP
 ping -c 5 IP_ADDRESS
-# Ping
+# Ping URL
 ping -c 5 URL
 
 # Fping
