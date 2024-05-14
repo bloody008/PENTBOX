@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk
 import subprocess
 
 # Fonction pour exécuter les commandes
@@ -15,6 +15,8 @@ def execute_commands():
     # Récupération de l'adresse IP et de l'URL depuis les champs de saisie
     ip_address = entry_ip.get()
     url = entry_url.get()
+    username = entry_username.get()
+    password = entry_password.get()
 
     # Déclaration du dictionnaire pour stocker les commentaires et les commandes
     commands_dict = {}
@@ -38,6 +40,8 @@ def execute_commands():
         # Remplacement des placeholders IP_ADDRESS et URL par les valeurs récupérées
         command_with_ip = command.replace("IP_ADDRESS", ip_address)
         command_with_ip_and_url = command_with_ip.replace("URL", url)
+        command_with_ip_url_username = command_with_ip_and_url.replace("USERNAME", username)
+        command_with_ip_url_username_password = command_with_ip_url_username.replace("PASSWORD", password)
 
         # Exécution des commandes en parallèle dans des processus séparés
         process = subprocess.Popen(command_with_ip_and_url, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
@@ -126,9 +130,21 @@ entry_url.grid(row=2, column=0, columnspan=3, padx=10, pady=5)
 label_url = Label(root, text="URL (sans http/https):")
 label_url.grid(row=2, column=3, padx=10, pady=5)
 
+# Création du champ de saisie pour l'username
+entry_username = Entry(root, width=20)
+entry_username.grid(row=3, column=0, padx=10, pady=5)
+label_username = Label(root, text="Nom d'utilisateur:")
+label_username.grid(row=3, column=1, padx=10, pady=5)
+
+# Ajout d'un champ de saisie pour le mot de passe
+entry_password = Entry(root, width=20, show="*")  # Masquer le mot de passe
+entry_password.grid(row=4, column=0, padx=10, pady=5)
+label_password = Label(root, text="Mot de passe:")
+label_password.grid(row=4, column=1, padx=10, pady=5)
+
 # Création du bouton d'exécution des commandes
 button_execute = Button(root, text="Exécuter", command=execute_commands)
-button_execute.grid(row=3, column=0, columnspan=3, padx=10, pady=10)
+button_execute.grid(row=7, column=0, columnspan=4, padx=10, pady=10)
 
 # Lancement de la boucle principale de l'interface graphique
 root.mainloop()
