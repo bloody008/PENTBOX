@@ -93,9 +93,7 @@ def execute_commands():
                     # S'il y a encore au moins un processus en cours d'exécution, répéter la vérification
                     root.after(100, check_processes)
                     return
-            # Si tous les processus sont terminés, fermer la fenêtre principale
-            root.destroy()
-
+            
         # Lancer la vérification des processus
         check_processes()
 
