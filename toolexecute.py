@@ -42,7 +42,7 @@ def execute_commands():
         command_with_ip_and_url = command_with_ip.replace("URL", url)
         command_with_ip_url_username = command_with_ip_and_url.replace("USERNAME", username)
         command_with_ip_url_username_password = command_with_ip_url_username.replace("PASSWORD", password)
-
+        
         # Exécution des commandes en parallèle dans des processus séparés
         process = subprocess.Popen(command_with_ip_and_url, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 
@@ -62,14 +62,14 @@ def execute_commands():
                 # Création d'un fichier de sortie et écriture des résultats
                 output_file = f"result_{comment}.txt"
                 with open(output_file, "w") as file:
-                    file.write("################################################################################################\n")
+                    file.write("-------------------------------------------------------------------------------------------------\n")
                     file.write(f"Exécution de : {comment}\n")
                     file.write(f"Ligne de commande exécutée: {command_with_ip_and_url}\n")
-                    file.write("################################################################################################\n")
+                    file.write("-------------------------------------------------------------------------------------------------\n")
                     file.write(f"Résultats pour la commande '{command}' enregistrés dans le fichier : {output_file}\n")
                     file.write(output)
                     file.write(f"\n")
-                    file.write("###################### FIN EXECUTION COMMANDE ###################################################\n")
+                    file.write("---------------------- FIN EXECUTION COMMANDE ---------------------------------------------------\n")
                 # Affichage des résultats dans la console (peut être commenté pour la version finale)
                 print(f"Résultats pour le commentaire '{comment}' enregistrés dans le fichier : {output_file}")
                 print(f"Sortie de la commande : {output}")
@@ -79,12 +79,12 @@ def execute_commands():
                 # Création d'un fichier d'erreur et écriture du message d'erreur
                 error_file = f"result_{comment}.txt"
                 with open(error_file, "w") as file:
-                    file.write("################################################################################################\n")
+                    file.write("-------------------------------------------------------------------------------------------------\n")
                     file.write("ERREUR lors de l'exécution de la commande :\n")
                     file.write(f"{command_with_ip_and_url}\n")
-                    file.write("################################################################################################\n")
+                    file.write("-------------------------------------------------------------------------------------------------\n")
                     file.write(f"Erreur : {error}\n")
-                    file.write("###################### FIN EXECUTION COMMANDE ###################################################\n")
+                    file.write("---------------------- FIN EXECUTION COMMANDE ---------------------------------------------------\n")
 
     # Fonction pour vérifier si tous les processus sont terminés
         def check_processes():
@@ -142,7 +142,7 @@ label_password.grid(row=4, column=1, padx=10, pady=5)
 
 # Création du bouton d'exécution des commandes
 button_execute = Button(root, text="Exécuter", command=execute_commands)
-button_execute.grid(row=7, column=0, columnspan=4, padx=10, pady=10)
+button_execute.grid(row=3, column=0, columnspan=3, padx=10, pady=10)
 
 # Lancement de la boucle principale de l'interface graphique
 root.mainloop()
