@@ -142,7 +142,7 @@ label_password.grid(row=4, column=1, padx=10, pady=5)
 
 # Création du bouton d'exécution des commandes
 button_execute = Button(root, text="Exécuter", command=execute_commands)
-button_execute.grid(row=3, column=0, columnspan=3, padx=10, pady=10)
+button_execute.grid(row=5, column=2, columnspan=5, padx=10, pady=5)
 
 # Lancement de la boucle principale de l'interface graphique
 root.mainloop()
