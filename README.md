@@ -48,7 +48,7 @@ Pour utiliser la toolbox, suivez ces étapes :
 
 ```bash
 # Lancer l'outil
-python toolexecute.py
+python3 toolexecute.py
 ```
 La boîte de dialogue apparaît ensuite, avec des paramètres à entrée :
 
