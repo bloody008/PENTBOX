@@ -16,9 +16,9 @@ Bonne lecture.
 - [🔍 À propos](#-à-propos)
 - [📋 Prérequis](#-prérequis)
 - [🚀 Installation](#-installation)
-- [🛠️ Utilisation](#-utilisation)
-- [🏗️ Construit avec](#-construit-avec)
-- [📜 Licence](#-licence)
+- [🛠️ Utilisation](#utilisation)
+- [🏗️ Construit avec](#construit-avec)
+- [📜 Licence](#licence)
 ------------------
 
 ## 📋 Prérequis
