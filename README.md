@@ -19,7 +19,6 @@ Bonne lecture.
 - [🛠️ Utilisation](#-utilisation)
 - [🏗️ Construit avec](#-construit-avec)
 - [📜 Licence](#-licence)
-
 ------------------
 
 ## 📋 Prérequis
