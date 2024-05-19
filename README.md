@@ -5,6 +5,8 @@ Un pentesteur a toujours une distribution avec ses outils les plus utilisés, ou
 
 Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps ! Bonne lecture.
 
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifdb.com%2Fhappy&psig=AOvVaw3yVOfp0z9nvXmzI3E3HWjY&ust=1716220536045000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCIC-x-2JmoYDFQAAAAAdAAAAABAE)
+
 ------------------
 
 ## 📋 Table des matières
