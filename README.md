@@ -1,6 +1,9 @@
 # La PENTBOX
 ## 🔍 À propos
-Voici mon projet d'étude, une toolbox automatisée qui est conçue pour automatisée les tests d'intrusion. Développée en Python, elle permet de suivre la méthodologie des tests d'intrusion. Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps ! Bonne lecture.
+Voici mon projet d'étude, une toolbox automatisée qui est conçue pour automatisée les tests d'intrusion. Développée en Python, elle permet de suivre la méthodologie des tests d'intrusion. La toolbox à été pensée de la manière suivante : 
+Un pentesteur a toujours une distribution avec ses outils les plus utilisés, ou les plus populaires dans le domaine. Ce sont ces outils qui sont utilisés dans la toolbox pour chaque phase de test.
+
+Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps ! Bonne lecture.
 
 ------------------
 
@@ -60,4 +63,4 @@ Python : Langage principal de développement. [Documentation 📃](https://www.p
 ------------------
 
 ## Licence 📜
-Voir le fichier [LICENSE](./LICENSE.md) du dépôt.
+Voir le fichier [LICENSE](LICENSE) du dépôt.
