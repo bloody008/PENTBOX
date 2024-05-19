@@ -40,6 +40,7 @@ git clone https://github.com/bloody008/PENTBOX
 
 # Aller dans le répertoire du projet
 cd PENTBOX
+```
 
 ------------------
 
