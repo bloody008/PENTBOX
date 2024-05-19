@@ -13,12 +13,12 @@ Bonne lecture.
 
 ## 📋 Table des matières
 
-- 🪧 [À propos](#à-propos)
-- 📦 [Prérequis](#prérequis)
-- 🚀 [Installation](#installation)
-- 🛠️ [Utilisation](#utilisation)
-- 🏗️ [Construit avec](#construit-avec)
-- 📝 [Licence](#licence)
+- 🪧 [À propos](#À-propos)
+- 📦 [Prérequis](#Prérequis)
+- 🚀 [Installation](#Installation)
+- 🛠️ [Utilisation](#Utilisation)
+- 🏗️ [Construit avec](#Construit-avec)
+- 📝 [Licence](#Licence)
 
 ------------------
 
