@@ -27,8 +27,8 @@ Pour faire fonctionner ce projet, vous aurez besoin des éléments suivants :
 - Python 3.7+ 🐍 : Langage de programmation principal.
 - pip : Gestionnaire de paquets pour Python.
 - Git 🐙 : Logiciel de gestion de versions.
-- Les outils mentionnés dans la liste des commandes
-- Distribution Kali Linux  🐉 : Pour avoir la majorité des outils préinstallés (optionnel)
+- Les outils mentionnés dans la liste des commandes.
+- Distribution Kali Linux  🐉 : Pour avoir la majorité des outils préinstallés (optionnel).
 
 ------------------
 
