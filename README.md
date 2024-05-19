@@ -5,7 +5,7 @@ Un pentesteur a toujours une distribution avec ses outils les plus utilisés, ou
 
 Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps !
 
-[Bonne lecture.](https://gifdb.com/images/high/happy-jonah-hill-prw5obdo8pxp11p9.gif)
+![Bonne lecture.](https://gifdb.com/images/high/happy-jonah-hill-prw5obdo8pxp11p9.gif)
 
 ------------------
 
