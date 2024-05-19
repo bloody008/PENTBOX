@@ -27,7 +27,7 @@ Pour faire fonctionner ce projet, vous aurez besoin des éléments suivants :
 - Python 3.7+ 🐍 : Langage de programmation principal.
 - pip : Gestionnaire de paquets pour Python.
 - Git 🐙 : Logiciel de gestion de versions.
-- Les outils mentionnés dans les fichiers de commande.
+- Les outils mentionnés dans les fichiers de commande (PhasedeReconnaissance.txt), (ExploitPostExploit.txt), (PasswordAttack.txt) et (PasswordAnalysis.txt).
 - Distribution Kali Linux  🐉 : Pour avoir la majorité des outils préinstallés (optionnel).
 
 ------------------
