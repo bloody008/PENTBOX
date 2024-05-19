@@ -3,9 +3,9 @@
 Voici mon projet d'étude, une toolbox automatisée qui est conçue pour automatisée les tests d'intrusion. Développée en Python, elle permet de suivre la méthodologie des tests d'intrusion. La toolbox à été pensée de la manière suivante : 
 Un pentesteur a toujours une distribution avec ses outils les plus utilisés, ou les plus populaires dans le domaine. Ce sont ces outils qui sont utilisés dans la toolbox pour chaque phase de test.
 
-Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps ! Bonne lecture.
+Bien qu'elle soit incomplète je compte bien l'améliorer dans le temps !
 
-(https://gifdb.com/images/high/happy-jonah-hill-prw5obdo8pxp11p9.gif)
+[Bonne lecture.](https://gifdb.com/images/high/happy-jonah-hill-prw5obdo8pxp11p9.gif)
 
 ------------------
 
